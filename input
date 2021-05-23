@@ -1,0 +1,43 @@
+/home/gauravk/jdk1.8.0_111/bin/java -javaagent:/snap/intellij-idea-community/299/lib/idea_rt.jar=38285:/snap/intellij-idea-community/299/bin -Dfile.encoding=UTF-8 -classpath /home/gauravk/jdk1.8.0_111/jre/lib/charsets.jar:/home/gauravk/jdk1.8.0_111/jre/lib/deploy.jar:/home/gauravk/jdk1.8.0_111/jre/lib/ext/cldrdata.jar:/home/gauravk/jdk1.8.0_111/jre/lib/ext/dnsns.jar:/home/gauravk/jdk1.8.0_111/jre/lib/ext/jaccess.jar:/home/gauravk/jdk1.8.0_111/jre/lib/ext/jfxrt.jar:/home/gauravk/jdk1.8.0_111/jre/lib/ext/localedata.jar:/home/gauravk/jdk1.8.0_111/jre/lib/ext/nashorn.jar:/home/gauravk/jdk1.8.0_111/jre/lib/ext/sunec.jar:/home/gauravk/jdk1.8.0_111/jre/lib/ext/sunjce_provider.jar:/home/gauravk/jdk1.8.0_111/jre/lib/ext/sunpkcs11.jar:/home/gauravk/jdk1.8.0_111/jre/lib/ext/zipfs.jar:/home/gauravk/jdk1.8.0_111/jre/lib/javaws.jar:/home/gauravk/jdk1.8.0_111/jre/lib/jce.jar:/home/gauravk/jdk1.8.0_111/jre/lib/jfr.jar:/home/gauravk/jdk1.8.0_111/jre/lib/jfxswt.jar:/home/gauravk/jdk1.8.0_111/jre/lib/jsse.jar:/home/gauravk/jdk1.8.0_111/jre/lib/management-agent.jar:/home/gauravk/jdk1.8.0_111/jre/lib/plugin.jar:/home/gauravk/jdk1.8.0_111/jre/lib/resources.jar:/home/gauravk/jdk1.8.0_111/jre/lib/rt.jar:/home/gauravk/Documents/spring/Assignment/target/classes MainClass
+Enter the interval size
+4
+Enter the intervals:
+31.5 41.27
+32 43
+The interval entered is getting overlapped, please enter a valid interval
+8.5 8.7
+4 3
+Please enter valid interval
+3 4.1
+0 1.1
+Enter the number of queries you want to give:
+10
+Enter the queries:
+insert 1
+insert 8.1
+findMean
+insert 40.1
+findMean
+insert 8.2
+insert 31.51
+findVariance
+findMean
+getHistogram
+Inserted 40.1
+Variance so far 422.24
+Inserted 31.51
+8.2 out of bounds
+[0.0,1.1) 1
+Mean so far 16.26
+Inserted 1.0
+Mean so far 24.21
+[3.0,4.1) 0
+Mean so far 24.21
+8.1 out of bounds
+[8.5,8.7) 0
+[31.5,41.27) 2
+Mean : 24.21
+Variance : 422.24
+Outliers are : 8.1 8.2
+
+Process finished with exit code 0
